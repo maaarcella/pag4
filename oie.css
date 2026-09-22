@@ -1,0 +1,73 @@
+.conteudo-direita-p4 {
+    width: 60%;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* SETA */
+.link-seta {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 45px;
+    width: 18px;
+    height: 18px;
+}
+
+.seta {
+    width: 18px !important;
+    height: 18px !important;
+
+    max-width: 18px;
+    max-height: 18px;
+
+    object-fit: contain;
+    display: block;
+}
+
+
+/* EFEITO DA SETA */
+.seta:hover {
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.grid-icones-p4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px 25px;
+    margin: 15px 0;
+}
+
+.item-icone {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.2s ease;
+}
+
+.item-icone:hover {
+    transform: translateX(5px);
+}
+
+.box-icone {
+    width: 44px;
+    height: 44px;
+    background-color: hsl(180, 51%, 69%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.item-icone span {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #222222;
+}
